@@ -68,11 +68,15 @@ body {
     margin-top: 15px;
 }
 
+
+/* Navigation */
+
 nav {
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: #3EBFFF;
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 40px 40px 0 40px;
 }
 
 nav ul {
@@ -101,14 +105,17 @@ nav ul a {
     display: none;
 }
 
+
+/* Header Section */
+
 header {
     background-image: url(./images/desktop/image-header.jpg);
-    background-position: left 0 right 0;
+    background-position: bottom;
     background-size: cover;
     /* background-color: #3EBFFF; */
     justify-content: center;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     color: #fff;
 }
@@ -117,6 +124,8 @@ header h1 {
     font-size: 3em;
     text-transform: uppercase;
     font-weight: 900;
+    margin: 0 auto;
+    padding-top: 100px;
 }
 
 #arrow {
