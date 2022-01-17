@@ -26,18 +26,20 @@
 
 <body>
 
-    <nav class="navbar">
-        <img src="./images/logo.svg" alt="logo" id="logo" />
-        <div class="hamburger">
-            <img src="./images/icon-hamburger.svg" alt="hamburger" />
-        </div>
-        <div class="sandwich">
-            <ul>
-                <li><a href="#">About </a></li>
-                <li><a href="#">Services </a></li>
-                <li><a href="#">Projects </a></li>
-                <li><a href="#" id="contact">Contact </a></li>
-            </ul>
+    <nav>
+        <div id="navbar">
+            <img src="./images/logo.svg" alt="logo" id="logo" />
+            <div class="dropdown" style="float:right;">
+                <a href="#navbar" class="hamburger drop-btn"><img src="./images/icon-hamburger.svg" alt="hamburger" /></a>
+                <div class="sandwich drop-content">
+                    <ul>
+                        <li><a href="#">About </a></li>
+                        <li><a href="#">Services </a></li>
+                        <li><a href="#">Projects </a></li>
+                        <li><a href="#" id="contact">Contact </a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
     <header>
@@ -49,7 +51,7 @@
     <section class="learn-more">
         <div class="first-line">
             <div class="center-image">
-                <img src="./images/desktop/image-transform.jpg" alt="image-transform" id="img-egg" />
+                <img class="image-square" src="./images/desktop/image-transform.jpg" alt="image-transform" id="img-egg" />
             </div>
             <div class="center-text" id="transform-text">
                 <h1>Transform your <br>brand </h1>
@@ -61,7 +63,7 @@
         </div>
         <div class="second-line">
             <div class="center-image">
-                <img src="./images/desktop/image-stand-out.jpg" alt="image-stand-out" id="img-lamp" />>
+                <img class="image-square" src="./images/desktop/image-stand-out.jpg" alt="image-stand-out" id="img-lamp" />>
             </div>
             <div class="center-text" id="standout-text">
                 <h1>
@@ -74,19 +76,18 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="learn-again">
         <div class="third-line">
-            <div class="text-inside">
-                <img src="./images/desktop/image-graphic-design.jpg" alt="image-graphic-design" id="img-cherry" />
+            <div class="center-image long-image">
+                <img class="image-square" src="./images/desktop/image-graphic-design.jpg" alt="image-graphic-design" id="img-cherry" />
                 <div class="text-in" id="graphic-design">
-                    <h2> Graphic design
-                    </h2>
-                    <p> Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-                    </p>
+                    <h2> Graphic design </h2>
+                    <p> Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention. </p>
                 </div>
             </div>
-            <div class="text-inside">
-                <img src="./images/desktop/image-photography.jpg" alt="image-photography" id="img-orange" />
+
+            <div class="center-image">
+                <img class="image-square" src="./images/desktop/image-photography.jpg" alt="image-photography" id="img-orange" />
                 <div class="text-in" id="photography">
                     <h2> Photography
                     </h2>
