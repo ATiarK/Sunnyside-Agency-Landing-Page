@@ -168,7 +168,7 @@ header h1 {
 }
 
 #arrow {
-    padding-top: 4em;
+    padding-top: 7em;
     padding-bottom: 17em;
 }
 
@@ -316,6 +316,7 @@ header h1 {
     font-weight: 900;
     font-family: var(--font2);
     margin-bottom: 5px;
+    padding-top: 30px;
 }
 
 .clients h6 {
